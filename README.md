@@ -16,13 +16,12 @@ bower install feego/dom-selector
     <div id="divOne"></div>
     <div id="divTwo"></div>
 </dom-selector>
-```
 
 <!-- childrenElements will contain the div#divOne DOM object -->
 <dom-selector bindChildren="{{childrenElements}}">
     <div id="divOne"></div>
 </dom-selector>
-
+```
 
 #### Compile ES2015 source files
 
