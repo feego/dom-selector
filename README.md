@@ -5,7 +5,7 @@ Polymer element that binds its children to one attribute of its own.
 #### Installation
 
 ```
-$ bower install feego/dom-selector
+bower install feego/dom-selector
 ```
 
 #### Usage
@@ -27,8 +27,8 @@ $ bower install feego/dom-selector
 #### Compile ES2015 source files
 
 ```
-$ npm install babel-loader
-$ webpack ./harmony/src/dom-selector.js ./harmony/build/build.js --module-bind "js=babel?stage=0"
+npm install babel-loader
+webpack ./harmony/src/dom-selector.js ./harmony/build/build.js --module-bind "js=babel?stage=0"
 ```
 
 #### License
