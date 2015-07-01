@@ -1,0 +1,26 @@
+{
+  "name": "dom-selector",
+  "version": "0.0.1",
+  "authors": [
+    "Rui Monteiro"
+  ],
+  "description": "Polymer element that binds its children to one attribute of its own.",
+  "keywords": [
+    "Polymer",
+    "web-components"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "harmony/src",
+    "README.md",
+    ".gitignore",
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#master"
+  }
+}
